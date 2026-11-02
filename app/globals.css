@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: clamp(24px, 6vw, 80px);
+  background: #101820;
+  color: #f4f7fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  max-width: 1100px;
+  margin: 0;
+  font-size: clamp(28px, 4.5vw, 64px);
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+span {
+  color: #67e8c1;
+}
