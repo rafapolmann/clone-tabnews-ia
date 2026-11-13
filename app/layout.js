@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Seu próximo capítulo",
-  description: "Uma nova etapa na carreira de quem nunca para de aprender.",
+  title: "TabNews | Em Construção",
+  description:
+    "Estamos reconstruindo o TabNews, um lugar para quem trabalha com tecnologia e busca conteúdos com valor concreto.",
 };
 
 export default function RootLayout({ children }) {
